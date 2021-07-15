@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+h3{
+    margin: 0;
+}
+
+#grid{
+    width: 560px;
+    height: 560px;
+    margin: auto;
+    padding: 0;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid div{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.wall{
+    background: blue;
+}
+
+.pac-dots{
+    background: green;
+    border: 6px solid white;
+    border-radius:1px;
+    box-sizing: border-box;
+}
+
+.power-pellet{
+    background: green;
+    border-radius: 10px;
+}
+
+.pac-man{
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+}
+
+#msg,#msg2{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.Won,.Lost{
+    width: 20%;
+    background: bisque;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+#Reset,#Reset2{
+    padding: .5em 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+.Inky{
+    background-color: red;
+    border-style: none;
+}
+
+.Blinky{
+    background-color: brown;
+    border-style: none;
+}
+
+.Chinky{
+    background-color: palevioletred;
+    border-style: none;
+}
+
+.Pinky{
+    background-color: peru;
+    border-style: none;
+}
+
+.scared-ghost{
+    background: cadetblue;
+    border-style:none ;
+}
